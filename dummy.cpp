@@ -78,6 +78,7 @@ int main(int argc, char** argv)
     if (text_stderr.compare("") != 0) std::cerr << text_stderr;
 
     std::this_thread::sleep_for(std::chrono::seconds(sleep_seconds));
+    std::cout << "\n";
 
     return return_value;
 }
